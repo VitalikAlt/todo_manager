@@ -5,7 +5,9 @@ import App from "./App.vue";
 import VueNativeSock from "vue-native-websocket";
 
 Vue.use(ElementUI);
-Vue.use(VueNativeSock, `ws://${window.location.host}:8081`, { format: "json" });
+Vue.use(VueNativeSock, `ws://${window.location.hostname}:8081`, {
+  format: "json"
+});
 
 new Vue({
   el: "#app",
