@@ -8,12 +8,6 @@
   version = "v1.4.7"
 
 [[projects]]
-  name = "github.com/gorilla/websocket"
-  packages = ["."]
-  revision = "ea4d1f681babbce9545c9c5f3d5194a789c89f5b"
-  version = "v1.2.0"
-
-[[projects]]
   branch = "master"
   name = "github.com/hashicorp/hcl"
   packages = [
@@ -31,49 +25,16 @@
   revision = "ef8a98b0bbce4a65b5aa4c368430a80ddc533168"
 
 [[projects]]
-  branch = "master"
-  name = "github.com/lib/pq"
-  packages = [
-    ".",
-    "oid"
-  ]
-  revision = "d34b9ff171c21ad295489235aec8b6626023cd04"
-
-[[projects]]
-  branch = "master"
-  name = "github.com/lillilli/vconf"
-  packages = ["."]
-  revision = "a75c3f943e564296bca2b03fc4f8b11d08597971"
-
-[[projects]]
   name = "github.com/magiconair/properties"
   packages = ["."]
   revision = "c3beff4c2358b44d0493c7dda585e7db7ff28ae6"
   version = "v1.7.6"
 
 [[projects]]
-  name = "github.com/mattes/migrate"
-  packages = [
-    ".",
-    "database",
-    "database/postgres",
-    "source",
-    "source/file"
-  ]
-  revision = "035c07716cd373d88456ec4d701402df52584cb4"
-  version = "v3.0.1"
-
-[[projects]]
   branch = "master"
   name = "github.com/mitchellh/mapstructure"
   packages = ["."]
   revision = "00c29f56e2386353d58c599509e8dc3801b0d716"
-
-[[projects]]
-  name = "github.com/op/go-logging"
-  packages = ["."]
-  revision = "b2cb9fa56473e98db8caba80237377e83fe44db5"
-  version = "v1"
 
 [[projects]]
   name = "github.com/pelletier/go-toml"
@@ -124,7 +85,7 @@
   branch = "master"
   name = "golang.org/x/sys"
   packages = ["unix"]
-  revision = "6f686a352de66814cdd080d970febae7767857a3"
+  revision = "78d5f264b493f125018180c204871ecf58a2dce1"
 
 [[projects]]
   name = "golang.org/x/text"
@@ -148,6 +109,6 @@
 [solve-meta]
   analyzer-name = "dep"
   analyzer-version = 1
-  inputs-digest = "78f2980d5071eb54c44af9da24e486e75e03cd5bf303ccd21c3b0031417fb67f"
+  inputs-digest = "b514125ceb0adc19c67b799b0592270d52e0b3fc05298145c2e8c3945b9f7f71"
   solver-name = "gps-cdcl"
   solver-version = 1
