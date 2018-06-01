@@ -7,6 +7,6 @@ type Config struct {
 
 // HTTPConfig - конфиг http сервера
 type HTTPConfig struct {
-	Host string `default:"localhost"`
+	Host string `default:"0.0.0.0"`
 	Port int    `default:"8080"`
 }

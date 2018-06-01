@@ -2,8 +2,10 @@ package config
 
 // Config - определение структуры конфига
 type Config struct {
-	Log LogConfig
-	Db  DbConnection
+	Host string `default:"0.0.0.0"`
+	Port int    `default:"8081"`
+	Log  LogConfig
+	Db   DbConnection
 }
 
 // LogConfig конфигурация логгера

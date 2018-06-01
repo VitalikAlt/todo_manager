@@ -1,6 +1,8 @@
 package service
 
 import (
+	"fmt"
+
 	"github.com/lillilli/todo_manager/server/src/config"
 	"github.com/lillilli/todo_manager/server/src/db"
 	"github.com/lillilli/todo_manager/server/src/service/ws"
@@ -24,7 +26,7 @@ func New(cfg *config.Config) (service *Service, err error) {
 		cfg: cfg,
 	}
 
-	service.wsServer = ws.New("localhost:8081", service.db)
+	service.wsServer = ws.New(fmt.Sprintf("%s:%d", cfg.Host, cfg.Port), service.db)
 
 	return service, nil
 }
