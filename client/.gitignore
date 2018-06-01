@@ -1,0 +1,9 @@
+.vscode/
+.idea/
+
+*.deb
+
+src/cmd/todo_web_client/todo_web_client
+dist
+
+local.yml
